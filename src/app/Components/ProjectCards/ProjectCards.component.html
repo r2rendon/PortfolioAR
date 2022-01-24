@@ -1,0 +1,122 @@
+<div class="container" style="margin-bottom: 30px;">
+  <div class="project-cards">
+    <div class="project-cards__header">
+      <h2 class="display-4" style="margin-top: 25px;">Projects</h2>
+      <hr style="width: 250px; border: 0.5px solid grey;" />
+    </div>
+
+    <div class="app-cards row">
+      <div class="card col-sm-12 col-md-5 mr-5 mb-5" style="width: 18rem;">
+        <img
+          src="assets/img/ExpenseTracker.png"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Expense Tracker</h5>
+          <p class="card-text">
+            Simple app made with the MERN Stack. Keep your expenses tracked! API
+            Hosted on Heroku and UI on Firebase
+          </p>
+          <a
+            (click)="redirectToPage('https://expensetracker-5e8ab.web.app/')"
+            class="btn btn-info linkButtons w-100"
+            >Web Site</a
+          >
+          <br />
+          <a
+            (click)="
+              redirectToPage('https://github.com/r2rendon/API_Expense_Tracker')
+            "
+            class="btn btn-info linkButtons w-100"
+            >API Github</a
+          >
+          <br />
+          <a
+            (click)="
+              redirectToPage(
+                'https://github.com/r2rendon/clientside-expense-tracker'
+              )
+            "
+            class="btn btn-info linkButtons w-100"
+            >Client Github</a
+          >
+        </div>
+      </div>
+
+      <div class="card col-sm-12 col-md-5 mb-5" style="width: 18rem;">
+        <img src="assets/img/CRP.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Crunchy Royal Pizza</h5>
+          <p class="card-text">
+            Pizza restaurant app supporting orders, menu and other features.
+            Client made in Angular and API Made in ASP.NET
+          </p>
+          <br />
+          <a
+            (click)="
+              redirectToPage(
+                'https://github.com/carlos-haddad1996/Royal-Pizza.API'
+              )
+            "
+            class="btn btn-info linkButtons w-100"
+            >API Github</a
+          >
+          <br />
+          <a
+            (click)="
+              redirectToPage(
+                'https://github.com/carlos-haddad1996/Crunchy-Royal-Pizza'
+              )
+            "
+            class="btn btn-info linkButtons w-100"
+            >Client Github</a
+          >
+        </div>
+      </div>
+
+      <div class="card col-sm-12 col-md-5" style="width: 18rem;">
+        <img
+          src="assets/img/GameApp.png"
+          class="card-img-top w-100"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">ChurchGroup App</h5>
+          <p class="card-text">
+            Small App, bringing small games made in React using Firebase as the
+            Database and Hosting Service.
+          </p>
+          <br />
+          <a
+            (click)="redirectToPage('https://tgif-gameapp.web.app/')"
+            class="btn btn-info linkButtons w-100"
+            >Web Site</a
+          >
+        </div>
+      </div>
+
+      <div class="card col-sm-12 col-md-5 mr-5" style="width: 18rem;">
+        <img src="assets/img/Student.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">College Student App</h5>
+          <p class="card-text">
+            College Studen App that displays classes with its respective section
+            that the student is enrolling. Made in Angular using and API made in
+            ASP.NET.
+          </p>
+          <br />
+          <a
+            (click)="
+              redirectToPage('https://github.com/r2rendon/College-Student-App')
+            "
+            class="btn btn-info linkButtons w-100"
+            >Client Github</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<contact-me></contact-me>
