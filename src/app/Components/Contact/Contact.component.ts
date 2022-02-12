@@ -18,6 +18,7 @@ import { ToastrService } from 'ngx-toastr';
       .social {
         margin-right: 5px;
         margin-left: 5px;
+        cursor: pointer;
       }
     `,
   ],
